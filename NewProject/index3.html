@@ -12,7 +12,7 @@
     
     <div class="alert-box" id = "alert">
         <p id = "title">Alert 박스 </p>
-        <button onclick="알림창열기('none')">X</button>
+        <button id="close"> X </button>
     </div>
 
     <button onclick="알림창1열기('아이디를 입력하시오')">버튼1</button>
@@ -20,6 +20,11 @@
     
     <script>
 
+        document.getElementById('close').addEventListener('click', function(){
+            document.getElementById('alert').style.display = 'none';
+        })
+
+        
         function 알림창열기(구멍){
             document.getElementById('alert').style.display= 구멍;
         }
@@ -31,8 +36,7 @@
             document.getElementById('alert').style.display='block';
             document.getElementById('title').innerHTML = 구멍;
         }
-
-        
+    
     </script>
 </body>
 </html>
