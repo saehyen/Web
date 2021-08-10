@@ -27,3 +27,12 @@
 4. EventListener
 - 사용 이유 : HTML 간결하게 작성 가능
 - click, keydown, scroll, mouseover ...
+
+5. JQuery
+- 자바스크립트의 라이브러리 중 하나
+- $ : ~을 찾아달라
+- (#) : id가 ~인것을 찾아달라 
+- (.) : 클래스를 찾아달라
+- innerHTML -> html,text
+- attr(이걸,이렇게)
+- css(이걸,이렇게)
