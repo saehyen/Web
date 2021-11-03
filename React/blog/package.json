@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "- nodejs -> npm 툴 이용 가능 ->create-react-app 라이브러리 사용 \r - App.js는 메인페이지에 들어갈 HTML 짜는곳\r - public/index.html : 메인페이지\r - node_modules : 라이브러리 폴더\r - npm start : 실시간 홈페이지 보기\r - src : 소스코드 보관함\r - packge.json : 설치한 라이브러리 목록\r - app.js -> index.html. 따라서 app.js가 메인페이지\r - warning x : eslint-disable\r #### JSX\r - 데이터 바인딩 : 서버에서 데이터를 가져와 프론트에 보여주는 것\r - {변수명, 함수 등} -> 중괄호 !\r - src,id,href 등의 속성에도 가능\r - style={object 자료형으로 만든 스타일}",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
