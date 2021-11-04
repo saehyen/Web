@@ -1,0 +1,103 @@
+<?php include ('./header.html');?>
+
+<body>
+    <div class="container">
+        <div class="member_wrap">
+            <div class="tit_wrap">
+                <h2 class="member_tit">회원가입</h2>
+            </div>
+        <div class="join_wrap">
+            <div class="join_filed">
+                <div>일반회원</div>
+                <div><a href=#none>유료회원</a></div>
+            </div>
+                
+            <div class="join_detail">
+                <div class="input_wrap">
+                    <div class="input_area first">
+                        <input type="text" name="id" id="id" placeholder="아이디 입력* (숫자,영문 자유 형식) " required="" autocomplete="off">
+                        
+                    </div>
+                    <div class="input_area">
+                        <input type="text" name="name" id="name" placeholder="이름 입력" required="" autocomplete="off">
+                        <label for="join_co05"></label>
+                    </div>
+                    <div class="input_area">
+                        <input type="text" name="email" id="email" placeholder="이메일" required="" autocomplete="off">
+                        
+                    </div>
+                    <div class="input_area add_btn">
+                        <input type="text" name="phone" id="phone" placeholder="휴대폰번호 입력*" required="" autocomplete="off">
+                        
+                        <a href="#none" class="myButton">인증요청</a>
+                    </div>
+                    <div class="input_area">
+                        <input type="text" name="join_co08" id="join_co08" placeholder="인증번호를 입력하세요" required="" autocomplete="off">
+                        
+                            
+                        </label>
+                    </div>
+                    <div class="input_area">
+                        <input type="password" name="pw" id="pw" placeholder="비밀번호(영문, 숫자 8-12자)" required="" autocomplete="off">
+                       
+                            
+                        </label>
+                    </div>
+                    <div class="input_area">
+                        <input type="password" name="pw2" id="pw2" placeholder="비밀번호 확인" required="" autocomplete="off">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="join_con02">
+                <div class="select_box">
+                    <div class="chk_tit">
+                        <div class="chk_area">
+                            <input type="checkbox" name="terms_all" id="terms_all">
+                            <label for="terms_all" class="chk">
+                                <i class="ico_chk"></i>
+                                전체동의
+                            </label>
+                        </div>
+                    </div>
+                    <div class="chk_content">
+                        <div class="chk_area">
+                            <input type="checkbox" name="terms01_1" id="terms01_1" class="normal" value="Y">
+                            <label for="terms01_1" class="chk">
+                                <i class="ico_chk"></i>
+                                서비스 이용약관동의(필수)
+                            </label>
+                                
+                            <a href="#foot_info01" target="blank" class="btn btn_pop pop_open">내용보기</a>
+                        </div>
+                        <div class="chk_area">
+                            <input type="checkbox" name="terms01_2" id="terms01_2" class="normal" value="Y">
+                            <label for="terms01_2" class="chk">
+                                <i class="ico_chk"></i>
+                                개인정보 취급방침(필수)
+                            </label>
+                            
+                             <a href="#foot_info02" target="blank" class="btn btn_pop pop_open">내용보기</a>
+                        </div>
+                        <div class="chk_area">
+                            <input type="checkbox" name="terms01_3" id="terms01_3" class="" value="Y">
+                            <label for="terms01_3" class="chk">
+                                <i class="ico_chk"></i>
+                                마케팅 수신 정보 동의 (선택)
+                            </label>
+                            <a href="#foot_info03" class="btn btn_pop pop_open">내용보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn_area">
+                    <button type="button" class="btn_join" onclick="checkform()">회원가입</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+
+<?php include ('./footer.html');?>
