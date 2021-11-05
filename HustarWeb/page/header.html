@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/web/10/css/style.css">
+    
     
     <link rel="stylesheet" href="/web/10/css/set.css"/>
+    <link rel="stylesheet" href="/web/10/css/style.css">
+
     <title>MyWeb</title>
     <meta
       name="viewport"
@@ -17,9 +19,9 @@
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <script src="https://artbyus.co.kr/js/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<body>
     <header data-aos="fade-zoom-in"
     data-aos-easing="ease-in-back"
     data-aos-delay="0"
@@ -42,25 +44,33 @@
         </div>
 
      </div>
-
+     
      <div class="btm_head">
         <ul class="nav">
-            <li>
-                <a href="/web/10/page/sub01.html">Web</a>
-            </li>
-            <li>
-                <a href="/web/10/index.html">AI</a>
-            </li>
-            <li>
-                <a href="/web/10/index.html">Python</a>
-            </li>
-            <li>
-                <a href="/web/10/index.html">Project</a>
-            </li>
+            <li><a href="/web/10/page/sub01.html">Web</a></li>
+            <li><a href="/web/10/index.html">AI</a></li>
+            <li><a href="/web/10/index.html">Python</a></li>
+            <li><a href="/web/10/page/news_list.html">Project</a></li>
+            
+            
         </ul>
+        <a href="#none" class="m_menu"><i class="fas fa-bars"></i></a>
+     </div>
+    
+       
+        
+
 
     </header>
     <script>
         AOS.init();
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".m_menu").click(function(){
+                $(".nav").toggleClass("active");
+            }
+        );
+    });
     </script>
 </head>
