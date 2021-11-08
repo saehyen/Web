@@ -1,0 +1,39 @@
+.circle-Box{
+    height: 800px;
+}
+
+.circle li {
+    width: 50%;
+}
+
+.product-mainbox{
+    height: 600px;
+}
+
+.product {
+    height: 1500px;
+}
+
+.product-mainbox ul{
+    
+    width:100%;
+}
+.notice .bbs .table3{
+    display: none;
+}  
+
+.notice .bbs .table1{
+    display: none;
+}  
+.notice .bbs .table2{
+    width: 100%;
+} 
+
+.infobox {
+    width: auto;
+
+}
+.pop-layer .text-box{
+    line-height: 70px;
+    font-size : 12px;
+}

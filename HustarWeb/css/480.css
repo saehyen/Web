@@ -1,0 +1,53 @@
+.circle-Box{
+    height: 1000px;
+}
+
+.circle li {
+    width: 90%;
+}
+
+.circle-Box{
+    margin-bottom: 10px;
+}
+
+.product {
+    height: 1500px;
+}
+
+.product ul {
+    width : 100%;
+}
+.notice .bbs .table3{
+    display: none;
+    width:0%;
+}  
+
+.notice .bbs .table1{
+    display: none;
+
+}  
+.notice .bbs .table2{
+    width: 100%;
+} 
+.notice .bbs li a {
+    display: block;
+}
+.notice .bbs li a img{
+    width:100%;
+    
+}
+.top-hd .login-bin-box a b{
+    margin-top:  0px; font-size: 10px;
+}
+.infobox {
+    width: auto;
+}
+
+.pop-layer .pop-title {
+    font-size:15px;
+    line-height: 70px;
+}
+.pop-layer .text-box{
+    
+    font-size : 12px;
+}

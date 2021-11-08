@@ -6,6 +6,7 @@
     border-bottom: 1px solid silver;
     max-width: 1400px;
     margin:0 auto;
+    padding : 0 30px;
 }
 
 .sch-btn {
@@ -30,10 +31,11 @@
     text-align: center;
     
 }
-
+.top-hd .login-bin-box a b{
+    margin-top:  0px; font-size: 12px;
+}
 .btm_head {
     width: 100%;
-    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,11 +48,13 @@
     float: left;
     font-size: 18px;
     font-weight: 600;
-    margin-right: 48px;
+    margin-right: 20px;
     font-family: 'NanumS', sans-serif;
 }
 
 .nav {
+    padding : 20px;
+    height: 60px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -102,16 +106,32 @@ object-fit: cover;
 }
 
 .circle-Box{
-    display: flex;
     width: 100%;
     height : 400px;
-    vertical-align: middle;
     justify-content: center;
-    border-bottom : 1px solid silver;
-    margin-bottom: 5px;
     max-width: 1400px;
     text-align: center;
     margin: 0 auto;
+    margin-bottom : 20px;
+    
+    border-bottom : 1px solid silver;
+}
+.circle{
+    width:100%;
+}
+.circle-Box ul li{
+    margin-bottom: 20px;
+}
+.circle-Box ul{
+    width: 100%;
+    display : flex;
+    height: 300px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+.circle-Box ul .c1{
+    height: 40%;
 }
 .main_title > h1{
     text-align: center;
@@ -124,26 +144,22 @@ object-fit: cover;
     text-align: center;
 }
 .circle li{
-    width:300px;
-    height:300px;
-    display: inline-block;
+    width:33%;
+    height: 100%;
     font-size: 18px;
     font-weight: 600;
-    margin: 0 25px;
     font-family: 'NanumS', sans-serif;
 }
 .circle li div{
-    width:300px;
-    height:300px;
+    width:50%;
+    height: 200px;
     margin:0 auto;
-    background-color: black;
     border-radius: 50%;
     list-style: none;
     display: inline-block;
     overflow: hidden;
     object-fit: cover;
     text-align: center;
-    line-height: 300px;
 }
 
 .circle li div img{
@@ -167,7 +183,11 @@ object-fit: cover;
     display : flex;
     
 }
-
+.product {
+    max-width: 1400px;
+    width:100%;
+    margin : 0 auto;
+}
 .product-mainbox .info{overflow:hidden; margin : 7px 0}
 .product-mainbox .info p:first-child{float:left;}
 .product-mainbox .info p:last-child{float:right;}
@@ -175,9 +195,11 @@ object-fit: cover;
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }
 .product-mainbox {
     display : flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     height : 300px;
@@ -187,7 +209,8 @@ object-fit: cover;
 }
 .product-mainbox ul{
     font-size:15px;
-    margin :40px;
+    margin :30px;
+    width:25%;
 }
 .product-mainbox ul li {
     border: 1px solid silver;
@@ -224,7 +247,8 @@ object-fit: cover;
     font-size : 50px;
 }
 .advantage .ad-circle{
-    width: 100px;;
+    width: 100px;
+    margin : 0 auto;
     height: 100px;
     background-color:black;
     border-radius: 50%;
@@ -234,9 +258,13 @@ object-fit: cover;
     justify-content: center;
     
 }
-.advantage li{margin : 0 200px;}
+.advantage li{
+    width:33.33%;
+    
+}
 .advantage {
     color: rgb(185, 199, 126);
+    max-width: 1400px;
     width: 100%;
     height: 50px;
     object-fit: cover;
@@ -250,14 +278,15 @@ object-fit: cover;
 }
 
 .ad-info p{
-    margin : 10px;
+    margin-top : 10px;
+    width: 100%;
     vertical-align: middle;
 
 }
 
 .ad-info p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 .myButton3 {
 	box-shadow: 3px 4px 0px 0px #899599;
@@ -587,10 +616,10 @@ input[type='password']{width: 100%; height: 40px;}
 .notice .bbs {
     width: 100%;
     max-width: 1400px;
-    height : 700px;
     border-top :2px solid rgb(0, 65, 43);
     margin : 0 auto;
     margin-top: 100px;
+    
 }
 
 .notice .bbs li{
@@ -598,19 +627,20 @@ input[type='password']{width: 100%; height: 40px;}
     font-size: 20px;
     text-align: center;
     border-bottom: 1px solid rgb(187, 186, 184);
-    padding: 10px;
-    margin : 20px 0 20px 0;
-    height: 150px;
-    line-height: 35px;
+    padding : 10px;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 .notice .bbs .table1{
     width : 15%;
     font-weight: lighter;
+    line-height: 50px;
 }
 .notice .bbs .table2{
     width : 70%;
     text-align: left;
+    line-height: 50px;
 }
 .notice .bbs .subject {
     text-align: center;
@@ -618,6 +648,7 @@ input[type='password']{width: 100%; height: 40px;}
 .notice .bbs .table3{
     width : 15%;
     font-weight: lighter;
+    line-height: 50px;
 }  
 .notice .bbs > ul > li:first-child{
     font-weight:bold;
@@ -657,6 +688,7 @@ input[type='password']{width: 100%; height: 40px;}
 
 .notice .bbs li a{
     display: flex;
+    background-color: rgb(216, 215, 214);
 }
 
 .notice .bbs li a img{
@@ -751,14 +783,13 @@ body{
     width : 100%;
     max-width: 1200px;
     margin :30px auto;
-    height : 50px;
     justify-content: center;
     display: flex;
     
 }
 .notice01-button a{
     margin: 10px;
-    font-size : 20px;
+    font-size : 13px;
     border: 1px solid rgb(146, 144, 144);
     color : rgb(114, 112, 112);
     height: 50px;
@@ -775,7 +806,6 @@ body{
 .notice01-button .button-l a{
     width: 30%;
     padding: 10px;
-    margin-left : 150px;
 }
 .notice01-button .button-r{
     width:20%;

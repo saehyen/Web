@@ -1,0 +1,29 @@
+.product {
+    height : 1000px;
+}
+
+.product ul {
+    width : 50%;
+    margin: 30px 0;
+}
+.notice .bbs .table3{
+    display: none;
+}  
+.notice .bbs .table2{
+    width: 100%;
+} 
+.notice .bbs .table1{
+    display: none;
+}  
+
+.infobox {
+    width: auto;
+    height:auto;
+
+}
+
+.product-mainbox ul{padding:10px;}
+.product-mainbox ul li > div:last-child{background: #fff; border-top:1px solid #e1e1e1 ; padding:15px;}
+.product-mainbox .infobox a{display:block; max-height:200px; overflow: hidden;}
+.product-mainbox .infobox img{width:auto; height:auto;}
+
