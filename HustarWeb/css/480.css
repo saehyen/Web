@@ -21,7 +21,12 @@
     display: none;
     width:0%;
 }  
-
+.login-bin-box{
+    display:none;
+}
+.sch-box{
+    display:none;
+}
 .notice .bbs .table1{
     display: none;
 
@@ -51,3 +56,5 @@
     
     font-size : 12px;
 }
+
+

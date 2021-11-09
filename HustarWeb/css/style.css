@@ -1,27 +1,37 @@
 .top-hd {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content:space-between;
+    
+    
     border-bottom: 1px solid silver;
-    max-width: 1400px;
-    margin:0 auto;
-    padding : 0 30px;
+     
+    padding : 0 20px;
 }
 
 .sch-btn {
     background: white;
     border: 0px solid white;
 }
-
+.wrap{
+    width: 100%;
+    max-width: 1400px;
+    margin:0 auto;
+}
+.top-wrap{
+    height: 60px;
+}
+.top-wrap .logo{
+    margin-top : 5px;
+}
+.top-hd-r{
+    width: 30%;
+    display:flex;
+}
 .sch-box {
     background: white;
-    height: 30px; width: 250px;
+    height: 30px; width: 100%;
     border: 1px solid silver;
     border-radius: 15px;
     text-align: center;
-    margin-top: -10px;
-    margin-right: 20px;
+    margin-top : 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,13 +39,32 @@
 
 .login-bin-box {
     text-align: center;
+    width: 10%;
     
 }
-.top-hd .login-bin-box a b{
-    margin-top:  0px; font-size: 12px;
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 100;
+    background-color: none;
+    transition: all 0.3s;
+    margin-bottom: 50px;
+}
+header.fixed-header{transform: translateY(-100%);}
+.top-hd .lodo{
+    width: 30%;
+    height: 30px;
+}
+.top-hd .login-bin-box{
+    width:30%;
+    margin-top:  10px;
+    font-size: 12px;
+    
 }
 .btm_head {
-    width: 100%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +75,7 @@
 
 .nav li {
     float: left;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     margin-right: 20px;
     font-family: 'NanumS', sans-serif;
@@ -66,13 +95,15 @@ div {
     box-sizing: border-box;
 }
 .main_title h1 {
-    margin-top: 50px;
-    padding-top: 10px;
     margin-bottom: 50px;
+    padding-top: 10px;
+}
+.mySwiper{
+    margin-top: 60px;
 }
 .swiper {
     width: 100%;
-    height: 700px;
+    height: 800px;
   }
 .swiper.img{
     width : 100%;
@@ -107,12 +138,10 @@ object-fit: cover;
 
 .circle-Box{
     width: 100%;
-    height : 400px;
     justify-content: center;
     max-width: 1400px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom : 20px;
     
     border-bottom : 1px solid silver;
 }
@@ -125,7 +154,6 @@ object-fit: cover;
 .circle-Box ul{
     width: 100%;
     display : flex;
-    height: 300px;
     vertical-align: middle;
     margin-bottom: 5px;
     flex-wrap: wrap;
@@ -172,6 +200,7 @@ object-fit: cover;
     vertical-align: middle;
     font-size: 30px;
     margin-bottom: 40px;
+
 }
 
 .infobox{
@@ -181,12 +210,11 @@ object-fit: cover;
 
 .infobox >.infobox {
     display : flex;
-    
 }
-.product {
-    max-width: 1400px;
-    width:100%;
-    margin : 0 auto;
+.product { 
+    padding-bottom: 150px;
+    padding-top : 20px;
+    background-color: rgb(244, 244, 253);
 }
 .product-mainbox .info{overflow:hidden; margin : 7px 0}
 .product-mainbox .info p:first-child{float:left;}
@@ -202,9 +230,8 @@ object-fit: cover;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height : 300px;
+    height : 450px;
     vertical-align: middle;
-    margin-bottom: 150px;
     
 }
 .product-mainbox ul{
@@ -227,7 +254,6 @@ object-fit: cover;
     background-repeat : no-repeat;
     background-size : cover;
     width:100%;
-    height:700px; 
     margin-bottom: 50px;
     color:white; 
 }
@@ -266,7 +292,7 @@ object-fit: cover;
     color: rgb(185, 199, 126);
     max-width: 1400px;
     width: 100%;
-    height: 50px;
+    height: 200px;
     object-fit: cover;
     text-align: center;
     margin: 0 auto;
@@ -316,7 +342,7 @@ object-fit: cover;
     height: 400px;
 }
 .bottom_box div{
-    padding-top: 30px;
+    padding-top: 10px;
     margin-left :30px;
 }
 .bottom_box{
@@ -355,7 +381,9 @@ object-fit: cover;
     padding : 0 30px;
     margin-right : 10px;
 }
-
+.signup{
+    margin-top: 100px;
+}
 .bottom_info{
     width: 100%;
     height: 100%;
@@ -408,6 +436,7 @@ input[type='password']{width: 100%; height: 40px;}
     max-width: 400px;
     margin:30px auto;
     height: 800px;
+    margin-top : 300px;
 }
 .login-box button{width:100%; height: 50px; background: #000; color: #fff; border:0;}
 .login-box li{margin-bottom: 10px;}
@@ -609,7 +638,7 @@ input[type='password']{width: 100%; height: 40px;}
 }
 
 
-.m_menu{ position:absolute;    right: 0;    top: 0;    font-size:40px;    }
+.m_menu{ position:absolute;    left: 90px;    top: 0px;    font-size:40px;    }
 .nav{opacity: 0; transition: all 0.3s;}
 .nav.active{opacity: 1;}
 
@@ -661,12 +690,6 @@ input[type='password']{width: 100%; height: 40px;}
     height: 200px;
     margin: 0 auto;
 }
-.resigter{
-    width : 100%;
-    max-width: 1400px;
-    height: 50px;
-    margin: 0 auto;
-}
 .resigter a{
     height: 50px;
     width: 120px;
@@ -676,7 +699,12 @@ input[type='password']{width: 100%; height: 40px;}
     font-size: 20px;
     color: white;
     background-color: black;
+    margin-top : 30px;
+    margin-bottom: 30px;
+    display:block;
+    
 }
+
 .notice .bbs-paging ul {
     display : flex;
     justify-content: center;
@@ -702,7 +730,9 @@ input[type='password']{width: 100%; height: 40px;}
     font-size: 15px;
     line-height: 15px;
 }
-
+.notice .resigter div{
+    height: 150px;
+}
 .notice-wrap .notice-box {
     width : 100%;
     max-width: 1200px;
@@ -751,7 +781,7 @@ input[type='password']{width: 100%; height: 40px;}
 }
 
 body{
-    background :rgb(233, 232, 232);
+    background: white;
 }
 
 .notice01-box{
@@ -816,3 +846,5 @@ body{
 .notice01-button .button-r a{
     padding: 10px;
 }
+
+header{background-color :#fff;}

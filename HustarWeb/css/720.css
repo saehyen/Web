@@ -13,7 +13,12 @@
 .product {
     height: 1500px;
 }
-
+.login-bin-box{
+    display:none;
+}
+.sch-box{
+    display:none;
+}
 .product-mainbox ul{
     
     width:100%;
