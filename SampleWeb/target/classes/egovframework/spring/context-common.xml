@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="sampleService" 
+	class="egovframework.sample.service.impl.SampleServiceImple">
+		<property name="sampleDAO" ref="ibatis"></property>
+		<property name="version" value="SampleWeb-1.0.0"></property>
+		<!-- <constructor-arg ref="jdbc"></constructor-arg>
+		<constructor-arg value="SampleWeb-1.0.0"></constructor-arg> -->
+	</bean>
+	<bean id="jdbc" class="egovframework.sample.service.impl.SampleDAOJDBC"></bean>
+	<bean id="ibatis" class="egovframework.sample.service.impl.SampleDAOIBatis"></bean>
+</beans>
