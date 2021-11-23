@@ -1,6 +1,7 @@
 package egovframework.sample.service;
 
 import java.sql.Date;
+/*다양한 데이터베이스에 대한 부모형태의 인터페이스*/
 
 public class SampleVO {
 	private int id;

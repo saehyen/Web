@@ -7,6 +7,7 @@ import org.springframework.jdbc.core.RowMapper;
 
 import egovframework.sample.service.SampleVO;
 
+/*select나 select 리스트에 적용하기 위한 맵핑작업*/
 public class SampleRowMapper implements RowMapper<SampleVO>{
 
 	@Override

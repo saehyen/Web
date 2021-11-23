@@ -1,3 +1,4 @@
+// 주석 처리해서 낼것
 select * from guestbook;
 
 drop table sample;

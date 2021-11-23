@@ -1,5 +1,6 @@
 package egovframework.sample.service.impl;
 
+/* JDBC 템플릿 방식의 DAO*/
 import java.util.List;
 
 import javax.annotation.Resource;
